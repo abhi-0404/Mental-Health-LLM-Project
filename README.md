@@ -1,5 +1,16 @@
 # MindCare: An AI-driven Chatbot for Emotional Assistance
 
+## Run the experiments
+
+Eight fine-tuning runs (batch size 16, 10 epochs) compare LoRA against full fine-tuning across four learning rates. Each opens in Google Colab with one click.
+
+| Learning rate | With LoRA | Without LoRA |
+|---|---|---|
+| 0.0025 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abhi-0404/Mental-Health-LLM-Project/blob/main/Code%20Notebooks%20with%20LoRA/LLM_project_batch_size_16_10_0_0025_epochs_with_lora.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abhi-0404/Mental-Health-LLM-Project/blob/main/Code%20Notebooks%20without%20LoRA/LLM_project_batch_size_16_10_0_0025_epochs_without_lora.ipynb) |
+| 0.003 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abhi-0404/Mental-Health-LLM-Project/blob/main/Code%20Notebooks%20with%20LoRA/LLM_project_batch_size_16_10_0_003_epochs_with_lora.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abhi-0404/Mental-Health-LLM-Project/blob/main/Code%20Notebooks%20without%20LoRA/LLM_project_batch_size_16_10_0_003_epochs_without_lora.ipynb) |
+| 0.004 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abhi-0404/Mental-Health-LLM-Project/blob/main/Code%20Notebooks%20with%20LoRA/LLM_project_batch_size_16_10_0_004_epochs_with_lora.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abhi-0404/Mental-Health-LLM-Project/blob/main/Code%20Notebooks%20without%20LoRA/LLM_project_batch_size_16_10_0_004_epochs_without_lora.ipynb) |
+| 0.005 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abhi-0404/Mental-Health-LLM-Project/blob/main/Code%20Notebooks%20with%20LoRA/LLM_project_batch_size_16_10_0_005_epochs_with_lora.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abhi-0404/Mental-Health-LLM-Project/blob/main/Code%20Notebooks%20without%20LoRA/LLM_project_batch_size_16_10_0_005_epochs_without_lora.ipynb) |
+
 MindCare is an AI-driven chatbot designed to provide emotional assistance through natural language conversations. By leveraging advanced Natural Language Processing (NLP) models and fine-tuning techniques, MindCare is equipped to offer empathetic and supportive responses to individuals seeking mental health counseling. This project is centered on creating a meaningful dialogue experience that can be a valuable tool in mental health support.
 
 ## Features
